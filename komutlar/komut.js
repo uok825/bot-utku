@@ -10,7 +10,7 @@ exports.run = async (client, message, args) => {
     .setColor("RANDOM")
     .setTimestamp()
     .setFooter(`${message.author.username} Tarafından istendi.`,message.author.avatarURL())
-    .setAuthor(`${client.user.username} - İstatistik:`)
+    .setAuthor(`${client.user.username} - Komut:`)
     .addField("**Ram kullanımı**",`\`${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB\``, true)
     .addField("**Çalışma süresi**",`\`${moment.duration(client.uptime).format(" D [gün], H [saat], m [dakika], s [saniye]")}\``,true)
     .addField("**Kullanıcılar**",`\`${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0).toLocaleString()}\``,true)

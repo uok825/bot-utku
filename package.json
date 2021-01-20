@@ -17,10 +17,10 @@
     "moment": "^2.27.0",
     "moment-duration-format": "^2.3.2",
     "os": "^0.1.1",
-    "cheerio": "1.0.0",
-    "request": "2.88.2",
-    
-  },
+    "cheerio": "^1.0.0",
+    "request": "^2.88.2",
+    "get": "^1.4.0",
+   },
   "engines": {
     "node": "12.x"
   },

@@ -5,6 +5,7 @@ const moment = require("moment");
 const cheerio = require("cheerio");
 const os = require("os");
 const request = require("request");
+const {get} = require("snekfetch");
 require("moment-duration-format");
 
 exports.run = async (client, message, args) => {

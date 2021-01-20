@@ -7,4 +7,11 @@ require("moment-duration-format");
 
 exports.run = async (client, message, args) => {
     .addField("**Ram kullanımı**",true)
-}
+};
+
+exports.help = {
+    name: "komut1",
+    guildOnly: false, // false olur ise DM'den de kullanılabilir bi hal alır | true olur ise sadece sunucuda kullanılabilir bir halde olur
+    aliases: ["i"]
+  };
+  

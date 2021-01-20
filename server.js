@@ -49,5 +49,5 @@ fs.readdir("./events/", (err, files) => {
 
 client.on("ready", () => {
   console.log(`[${moment().format("YYYY-MM-DD HH:mm:ss")}] ${client.user.username} (${client.user.id}) ismi ile giriş yapıldı!`);
-  client.user.setActivity(`7/24 Online | v${bot_version}` ,  { type: "STREAMING" }, {url: "https://discord.com"} )});
+  client.user.setActivity(`Erenin Çüküyle` ,  { type: "PLAYING" }, {url: "https://discord.com"} )});
 client.login(process.env.TOKEN);

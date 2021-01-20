@@ -24,7 +24,7 @@ exports.run = async (client, message, args) => {
 };
 
 exports.help = {
-  name: "komut1",
+  name: "komut",
   guildOnly: false, // false olur ise DM'den de kullanılabilir bi hal alır | true olur ise sadece sunucuda kullanılabilir bir halde olur
   aliases: ["i"]
 };
